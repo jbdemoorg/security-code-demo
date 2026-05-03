@@ -1,0 +1,16 @@
+{
+  "name": "security-code-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Intentionally vulnerable app for CodeQL and Dependabot demo coverage.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "lodash": "4.17.20",
+    "minimist": "0.0.8"
+  },
+  "devDependencies": {}
+}
